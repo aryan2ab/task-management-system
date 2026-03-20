@@ -261,9 +261,3 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 | CRUD UI + toast notifications | ✅ |
 
 ---
-
-## Author
-
-Built as part of the **Earnest Data Analytics Recruitment Drive** assessment.
-
-Track: **Track A – Full-Stack Engineer (Backend + Web Frontend)**
