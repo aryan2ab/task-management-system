@@ -3,7 +3,7 @@ import { validationResult } from 'express-validator';
 import prisma from '../utils/prisma';
 import { createError } from '../middleware/error.middleware';
 import { AuthRequest } from '../middleware/auth.middleware';
-import { TaskStatus } from '@prisma/client';
+type TaskStatus = 'PENDING' | 'IN_PROGRESS' | 'COMPLETED';
 
 // GET /tasks
 export const getTasks = async (req: AuthRequest, res: Response, next: NextFunction): Promise<void> => {
