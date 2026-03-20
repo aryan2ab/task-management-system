@@ -1,6 +1,6 @@
 # TaskFlow – Task Management System
 
-A full-stack Task Management System built for the **Earnest Data Analytics Recruitment Assessment**.
+A full-stack Task Management System.
 
 ## Overview
 
